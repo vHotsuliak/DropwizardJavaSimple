@@ -36,6 +36,13 @@
     </dependencyManagement>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
@@ -68,10 +75,11 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
+
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.example.helloworld.HelloWorldApplication</mainClass>
+                                    <mainClass>com.vhots.dropwizard.helloworld.HelloWorldApplication</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
