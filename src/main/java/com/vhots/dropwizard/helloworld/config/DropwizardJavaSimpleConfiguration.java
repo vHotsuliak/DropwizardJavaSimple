@@ -1,4 +1,4 @@
-package com.vhots.dropwizard.config;
+package com.vhots.dropwizard.helloworld.config;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;

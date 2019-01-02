@@ -1,6 +1,6 @@
-package com.vhots.dropwizard;
+package com.vhots.dropwizard.helloworld;
 
-import com.vhots.dropwizard.config.DropwizardJavaSimpleConfiguration;
+import com.vhots.dropwizard.helloworld.config.DropwizardJavaSimpleConfiguration;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
