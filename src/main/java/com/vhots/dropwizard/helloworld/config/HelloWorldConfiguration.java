@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;
 import org.hibernate.validator.constraints.NotEmpty;
 
-public class DropwizardJavaSimpleConfiguration extends Configuration {
+public class HelloWorldConfiguration extends Configuration {
     @NotEmpty
     private String template;
 
